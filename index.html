@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventaris Barang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Inventaris Barang</h2>
+        <form id="form-inventaris">
+            <input type="text" id="nama-barang" placeholder="Nama Barang" required>
+            <input type="text" id="jumlah" placeholder="Jumlah" required onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+            <input type="text" id="kategori" placeholder="Kategori" required>
+            <button type="submit">Tambah Barang</button>
+        </form>
+    </div>
+</body>
+</html>
